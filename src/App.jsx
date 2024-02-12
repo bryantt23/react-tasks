@@ -4,6 +4,13 @@ import './App.css'
 import Select, { } from '@mui/material/Select';
 import MenuItem from '@mui/material/MenuItem';
 
+/*
+tasks with priorities, filter
+responsive
+add task
+
+*/
+
 const tasksFromApi = [{ title: "wake up", description: "out of bed", priority: "low" },
 { title: "eat", description: "at table", priority: "medium" }]
 function App() {
